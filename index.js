@@ -73,7 +73,7 @@ function endGame() {
   document.removeEventListener('keydown', moveDodger);
   alert("YOU LOSE!");
   const rocksLength = ROCKS.length;
-  for (var i = 0; i < rocksLength; i++) {
+  forEach (var i = 0; i < rocksLength; i++) {
     ROCKS.removeChild();
     ROCKS.shift();
   }
